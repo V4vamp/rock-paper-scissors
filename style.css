@@ -1,0 +1,124 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(
+        135deg,
+        pink,
+        purple
+    );
+}
+.div-1{
+    width: 45%;
+    min-width: 25rem;
+    background-color: #fff;
+    padding: 3.6rem 1.5rem;
+    border-radius: 0.8rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.div-1 p i{
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+    color: black;
+    background-color: pink;
+}
+.scorecard{
+    display: flex;
+      justify-content: space-around;
+      margin-bottom: 6rem;
+}
+.icons{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.icons button{
+    font-size: 3.5rem;
+    border-radius: 5rem;
+    border: none;
+    color: black;
+    cursor: pointer;
+    height: 6rem;
+    width: 6rem;
+    outline: none;
+    background-color: pink;
+}
+.div-2{
+    margin-top: 5rem;
+    text-align: center;
+}
+.scorecard, .div-2{
+    font-family: 'Rokkitt', serif;
+}
+#result{
+    width: 180px;
+    padding: 10px 0;
+    margin: 30px auto;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+#my_choice,
+#robot_choice{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+span{
+    font-weight: 600;
+}
+.div-4 {
+    text-align: center;
+    margin-top: 12.5rem;
+    color: #fff;
+    font-family: 'Rokkitt', serif;
+  }
+  .button {
+    padding: 1rem;
+    width: 25%;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    color: pink;
+    font-size: var(--button-font-size);
+    border: none;
+    cursor: pointer;
+    margin-top: 3rem;
+    box-shadow: 0 2px 4px rgba(255, 105, 180, 0.2);
+  }
+  .button:hover {
+    background-color: #763869;
+  }
+  .game{
+    margin-top: 1rem;
+  }
+/* Rest of your existing CSS code */
+
+.div-5 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+#restart_button {
+    padding: 1rem;
+    width: 25%;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    color: pink;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    box-shadow: 0 2px 4px rgba(255, 105, 180, 0.2);
+}
+
+#restart_button:hover {
+    background-color: #763869;
+}

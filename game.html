@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,200;0,300;0,500;1,200;1,400&display=swap" rel="stylesheet">
+    <title>Start Game</title>
+    <link rel="icon" type="image/png" href="icon.jpg">
+    <script src="https://cdn.jsdelivr.net/gh/valnub/fireworks.js/dist/fireworks.min.js"></script>
+</head>
+<body>
+    <div class="div-1">
+        <div class="scorecard">           
+            <p>
+                You: 
+                <span id="user_score">0</span>
+            </p>
+            <p>
+                Robot: 
+                <span id="robot_score">0</span>
+            </p>
+        </div>
+        <div class="icons">
+            <button onclick="check('rock')">
+                <i class="far fa-hand-rock"></i>
+            </button>
+            <button onclick="check('paper')">
+                <i class="far fa-hand-paper"></i>
+            </button>
+            <button onclick="check('scissors')">
+                <i class="far fa-hand-scissors"></i>
+            </button>
+        </div>
+        <div class="div-2">
+            <p id="my_choice"></p>
+            <p id="robot_choice"></p>
+            <p id="result"></p>
+        </div>
+        
+        <div class="div-5">
+            <button id="restart_button" onclick="restartGame()">Restart</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
